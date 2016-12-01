@@ -37,7 +37,7 @@ define passwordless_ssh (
   $sudo = false,
   $sudo_host = 'ALL',
   $sudo_users = 'ALL',
-  $sudo_applications = [ 'ALL' ]
+  $sudo_applications = [ 'ALL' ],
   $home = undef,
 ) {
 
